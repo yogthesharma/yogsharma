@@ -8,7 +8,7 @@
 
 .heroDiv {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(540px, 1fr));
   place-items: center;
   width: 100%;
   height: 100%;
@@ -69,8 +69,16 @@
 
 /* media queries goes here */
 
-/* @media (min-width: 600px) {
-  .heroDiv {
-    grid-template-rows: 1fr 1fr;
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: black;
   }
-} */
+
+  .heroText h1 {
+    font-size: 175px;
+    margin-bottom: 1rem;
+  }
+  .heroText p {
+    font-size: 25px;
+  }
+} ;

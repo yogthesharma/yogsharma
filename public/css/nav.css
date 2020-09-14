@@ -133,6 +133,21 @@ nav {
 /* media query code goes here */
 @media only screen and (max-width: 600px) {
   .logoDiv a {
-    font-size: large;
+    font-size: 50px;
+  }
+  .hamburger div {
+    margin: 0.7rem 0;
+    width: 60px;
+    height: 2px;
+  }
+  .navLinks {
+    width: 60%;
+    transform: translateX(650px);
+  }
+  .navLinks a {
+    color: rgb(112, 112, 112);
+    text-decoration: unset;
+    transition: all 0.3s ease-in-out;
+    font-size: 40px;
   }
 } ;

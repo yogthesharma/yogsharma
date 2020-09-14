@@ -12,7 +12,7 @@ hamburger.addEventListener("click", () => {
 
 const closeSidebar = () => {
   if (navLinks !== null && coverDiv !== null) {
-    navLinks.style.transform = "translateX(450px)";
+    navLinks.style.transform = "translateX(650px)";
     coverDiv.style.transform = "translateX(-1000px)";
   }
 };
