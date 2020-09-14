@@ -87,7 +87,7 @@
 
 /* media query */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .portfolioSection {
     width: 100%;
     min-height: auto;

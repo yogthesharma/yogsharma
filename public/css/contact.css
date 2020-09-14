@@ -57,3 +57,14 @@
 .contactform form input[type="button"]:active {
   transform: scale(1.1);
 }
+/* media query goes here */
+
+@media screen and (max-width: 500px) {
+  .contactForm form input {
+    width: 95%;
+  }
+
+  .contactForm form textarea {
+    width: 95%;
+  }
+} ;

@@ -93,7 +93,7 @@
 
 /* media query */
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .blogSection {
     width: 100%;
     min-height: auto;

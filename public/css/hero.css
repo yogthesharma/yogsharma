@@ -69,7 +69,7 @@
 
 /* media queries goes here */
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 500px) {
   .heroDiv {
     width: 100%;
     place-items: start;
