@@ -1,0 +1,8 @@
+.footerDiv {
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  height: 30vh;
+  display: grid;
+  place-items: center;
+}

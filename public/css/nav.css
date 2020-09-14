@@ -1,0 +1,138 @@
+/* nav link */
+
+.navDiv {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
+}
+
+nav {
+  padding: 35px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+  background-color: rgb(243, 243, 243);
+  z-index: 3;
+}
+
+.newNavClass {
+  padding: 12px;
+  background-color: rgb(243, 243, 243);
+  box-shadow: 0 0 10px -4px rgba(0, 0, 0, 0.6);
+}
+
+/* logo */
+.logoDiv a {
+  color: rgb(80, 80, 80);
+  font-size: 25px;
+  text-decoration: unset;
+  transition: all 0.3s ease-in-out;
+  font-weight: lighter;
+}
+
+.logoDiv a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+/* hamburger stuff */
+
+.hamburger {
+  cursor: pointer;
+}
+/* 
+.hamburger:hover > .hamburger div:nth-child(2) {
+  width: 50px;
+}
+.hamburger div:nth-child(2) {
+  width: 50px;
+} */
+
+.hamburger div {
+  height: 1px;
+  width: 50px;
+  background-color: black;
+}
+
+.hamburger div:nth-child(2) {
+  margin: 0.7rem 0;
+  width: 40px;
+}
+
+/* nav links drawer */
+.navLinks {
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 30%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  z-index: 2;
+  transition: all 0.3s ease-in-out;
+}
+
+.navLinks {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transform: translateX(450px);
+}
+
+.navLinks a {
+  color: rgb(112, 112, 112);
+  text-decoration: unset;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+}
+.navLinks a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.navLinks ul {
+  height: 60%;
+  margin: 0 4rem;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.navLinks ul li {
+  list-style: none;
+}
+/* cross class */
+.crossClass {
+  width: 90%;
+  text-align: right;
+  font-weight: 300;
+}
+
+.crossClass p {
+  cursor: pointer;
+  font-size: 30 px;
+}
+
+/* cover */
+
+#coverDiv {
+  cursor: url(/assets/cross.png) 2 2, pointer;
+  position: fixed;
+  width: 70%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transform: translateX(-1000px);
+  background-color: rgba(114, 114, 114, 0.3);
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+/* media query code goes here */
+@media only screen and (max-width: 600px) {
+  .logoDiv a {
+    font-size: large;
+  }
+} ;
