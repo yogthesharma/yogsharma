@@ -69,16 +69,19 @@
 
 /* media queries goes here */
 
-/* @media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: black;
   }
 
+  .heroText {
+    margin-top: 3rem;
+  }
   .heroText h1 {
-    font-size: 175px;
+    font-size: 55px;
     margin-bottom: 1rem;
   }
   .heroText p {
     font-size: 25px;
   }
-} ; */
+} ;
