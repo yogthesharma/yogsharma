@@ -90,3 +90,13 @@
     transform: translateY(0);
   }
 }
+
+/* media query */
+
+@media (max-width: 400px) {
+  .blogSection {
+    width: 100%;
+    min-height: auto;
+    background-color: rgb(243, 243, 243);
+  }
+}

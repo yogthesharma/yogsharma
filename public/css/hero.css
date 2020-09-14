@@ -69,19 +69,23 @@
 
 /* media queries goes here */
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: black;
+@media screen and (max-width: 360px) {
+  .heroDiv {
+    width: 100%;
+    place-items: start;
   }
 
   .heroText {
-    margin-top: 3rem;
+    margin-top: 8rem;
+    animation: herotext 0.9s ease-in-out;
+    width: 70%;
+    text-align: center;
   }
   .heroText h1 {
-    font-size: 55px;
+    font-size: 25px;
     margin-bottom: 1rem;
   }
   .heroText p {
-    font-size: 25px;
+    font-size: 15px;
   }
 } ;
