@@ -17,21 +17,29 @@
   letter-spacing: 1.1px;
   padding: 1rem;
 }
+.imageDivBlog {
+  width: 100%;
+}
 
 .portfolioMain {
   opacity: 0;
+  width: 90%;
   display: grid;
   place-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 2rem;
 }
 
 .imageDiv {
+  width: 100%;
+  display: grid;
+  place-items: center;
   border-radius: 5px;
   overflow: hidden;
 }
 
 .portfolioMain img {
+  width: 100%;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }

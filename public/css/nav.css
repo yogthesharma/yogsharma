@@ -131,7 +131,7 @@ nav {
 }
 
 /* media query code goes here */
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .logoDiv a {
     font-size: 50px;
   }
@@ -150,4 +150,4 @@ nav {
     transition: all 0.3s ease-in-out;
     font-size: 40px;
   }
-} ;
+} ; */

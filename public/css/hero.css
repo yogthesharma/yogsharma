@@ -69,7 +69,7 @@
 
 /* media queries goes here */
 
-@media only screen and (max-width: 400px) {
+/* @media only screen and (max-width: 400px) {
   body {
     background-color: black;
   }
@@ -81,4 +81,4 @@
   .heroText p {
     font-size: 25px;
   }
-} ;
+} ; */
